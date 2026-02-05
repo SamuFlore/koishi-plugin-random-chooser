@@ -8,7 +8,7 @@ export const Config: Schema<Config> = Schema.object({})
 
 export function apply(ctx: Context, config: Config) {
   // write your plugin here
-  ctx.command('choose <count:number> <items...> 输入一个正整数和若干项，让 Koishi 机器人帮你选！')
+  ctx.command('choose <count:number> <items...> 输入一个正整数和若干项，让 Koishi 机器人帮你选！', '选择')
     .usage('choose <count> <item1> <item2> ...')
     .example('choose 1 原神 鸣潮 绝区零 终末地  表示从四个游戏中选择一个。')
     .action((session, count, ...items) => {

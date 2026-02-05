@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-random-chooser",
   "description": "让 Koishi 机器人帮你做选择！",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
