@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-random-chooser",
   "description": "让 Koishi 机器人帮你做选择！",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -16,5 +16,19 @@
   ],
   "peerDependencies": {
     "koishi": "^4.18.7"
+  },
+  "contributors": [
+    "SamuFlore <samu.flore@outlook.com>"
+  ],
+  "homepage": "https://github.com/SamuFlore/koishi-plugin-random-chooser?tab=readme-ov-file#koishi-plugin-random-chooser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuFlore/koishi-plugin-random-chooser.git"
+  },
+  "koishi": {
+    "description": {
+      "en": "Let the Koishi bot help you make choices!",
+      "zh": "让 Koishi 机器人帮你做选择！"
+    }
   }
 }
